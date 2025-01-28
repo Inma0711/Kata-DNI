@@ -8,7 +8,7 @@ When we enter this project we see that we don't have a view, we have to use the 
 The number must be between 0 and 99999999, if the user enters a number that does not meet this length the error will be indicated.
 
 Correct answer
-![Correct answer](postmanDNI1-2.png)
+![Correct answer](postmanDNI1.png)
 
 Wrong length answer
 ![Wrong length answer](postmanDNI2.png)
@@ -69,9 +69,11 @@ Here we find the project diagram which is made up of a single table
 ![DNI table](tableDNI.png)
 
 ## API Endpoints
--In this project we have this endpoint to be able to see the ID card letter:
+- In this project we have this endpoint to be able to see the ID card letter:
 
+```
 http://127.0.0.1:8000/api
+```
 
 ## Test
 This project has 80% test coverage.
